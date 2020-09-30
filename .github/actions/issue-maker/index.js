@@ -10,7 +10,6 @@ async function run() {
         repo: github.context.repo.repo,
         owner: github.context.repo.owner,
         title: issueTitle,
-        body; 
     });
   } catch (err) {
       core.setFailed(err.message);
